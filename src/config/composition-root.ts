@@ -7,7 +7,7 @@ import type { ReviewRepo } from '../domain/review-repo';
 
 // These non-secret values remain hard-coded for the Part C student exercise.
 const COSMOS_OPTIONS: Omit<CosmosReviewRepoOptions, 'key'> = {
-  endpoint: 'https://reviews-lab-ab47-cosmos-uksouth.documents.azure.com:443/',
+  endpoint: 'https://reviews-test-ps77-cosmos-germanywestcentral.documents.azure.com:443/',
   databaseId: 'reviews-db',
   containerId: 'reviews',
 };
